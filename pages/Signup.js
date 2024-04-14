@@ -1,8 +1,8 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import React, { useEffect, useState } from "react";
-import CustomTextInput from "../Components/CustomTextInput";
-import CustomPasswordInput from "../Components/CustomPasswordInput";
-import SubmitButton from "../Components/SubmitButton";
+import CustomTextInput from "../components/CustomTextInput";
+import CustomPasswordInput from "../components/CustomPasswordInput";
+import SubmitButton from "../components/SubmitButton";
 import Toast from "react-native-toast-message";
 import { isEmail } from "validator";
 import { style } from "../styles/pages/signup";
