@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Toast from "react-native-toast-message";
 import Home from "./Home";
-import Signup from "./signup";
+import Signup from "./Signup";
 import Login from "./Login";
 import { useSelector } from "react-redux";
 import { styles } from "../styles/pages/index";
