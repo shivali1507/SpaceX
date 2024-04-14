@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { getLaunchData, logoutFunction } from "../redux/action";
-import CustomTextInput from "../Components/CustomTextInput";
+import CustomTextInput from "../components/CustomTextInput";
 import { useNavigation } from "@react-navigation/native";
 import { styles } from "../styles/pages/home";
 
